@@ -15,11 +15,33 @@
     <section class="container-fluid ">
        <div class="row  d-flex align-items-center bg-secondary text-white  p-5 ">
         <div class="col-lg-6  ">
+          
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Honda CBR150RThe Honda CBR150R motorcycle with a price tag of estimate Rs. 1.60 Lakh. It is available in 1 variant and 4 colours. Powered by a bs6 engine
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
            <div>
             <h6>Computer-controlled digital transistorized with electronic advance</h6>
             <h1>Honda CBR 300R</h1>
             <p>The Honda Motor Company, Ltd. is a Japanese public multinational conglomerate manufacturer of automobiles, motorcycles, and power equipment, headquartered in Minato, Tokyo, Japan.</p>
-            <button type="button" class="btn btn-warning">Purchase</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Purchase
+            </button>
            </div>
         </div>
         <div class="col-lg-6  honda">
